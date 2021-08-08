@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifólio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/321e614590.js" crossorigin="anonymous"></script>
+    <style>
+        .foto-perfil {
+            height: 100%;
+            width: auto;
+            max-width: 100%;
+            border-radius: 50%;
+        }
+        .corPrimaria{
+            background-color:dodgerblue;
+        }
+        .corSecundaria{
+            background-color:#2c3e50;
+        }
+        p {
+            font-family:Arial, Helvetica, sans-serif ;
+            color: black !important;
+        }
+        .icones {
+            padding-left: 5px;
+        }
+
+        .titulosBrancos {
+            text-decoration: underline;
+            text-underline-position: below;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 800;
+            color: white;
+        }
+        .titulosVerdes {
+            text-decoration: underline;
+            text-underline-position: below;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 800;
+            color:#18bc9c;
+        }
+        .textoBranco {
+            color: white !important;
+        }
+        .jumbotron {
+            margin-bottom:0px;
+        }
+    </style>
+</head>
+
+
+<body>
+ <!-------- minha navbar: -->
+ <nav class=" corSecundaria navbar navbar-expand-lg navbar-light ">
+    <a class="navbar-brand textoBranco" href="#">Meu Portifólio </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link textoBranco" href="#projetos">Meus projetos</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link textoBranco" href="#depoimentos">Depoimentos</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link textoBranco" href="#sobre-mim">Sobre mim</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link textoBranco" href="#contato">Contato</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+  <!--breve descricao sobre mim: -->
+  <section class="jumbotron text-center corPrimaria">
+      <img class="foto-perfil"  src="./imagens/eu.jpg" alt="">
+    <div class="container">
+      <h1 class="jumbotron-heading textoBranco">Camila Bernardino da Costa</h1>
+      <p class="lead textoBranco"> Java Jr Developer at the Itau Project - IBM  .</p> <!--altera aqui depois pro seu cargo certo camis-->
+      <p>
+        <a href="#contato" class="btn btn-dark my-2">Contato</a>
+      </p>
+      <a href="https://www.linkedin.com/in/camila-bernardino-da-costa-b3aa2a165/"><i class=" textoBranco fab fa-linkedin"></i></a>
+      <a href="https://github.ibm.com/Camila-Bernardino-da-Costa"><i class="textoBranco icones fab fa-github"></i></a>
+      <a href="https://www.instagram.com/camilabdacosta/"><i class="textoBranco icones fab fa-instagram"></i></a>
+    </div>
+  </section>
+  <div class="album py-5 bg-light" id="projetos">
+    <div class="container">
+        <h2 class="jumbtron-heading text-center titulosVerdes">Projetos: </h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" width="100%" height="225" src="./imagens/desafio.jfif" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+            <div class="card-body">
+              <p class="card-text">Esse projeto foi um desafio passado pela IBM com a proposta de criar uma aplicação spring boot que consumia dados de uma API externa.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <a href="https://github.ibm.com/Camila-Bernardino-da-Costa/Projeto-IBM-Financials-Att"><button type="button" class="btn btn-sm btn-outline-sucess">Visualizar projeto</button></a>
+                 
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4 shadow-sm">
+            <img class="card-img-top" width="100%" height="225" src="./imagens/exercicio.jfif" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+            <div class="card-body">
+              <p class="card-text">Esse projeto foi feito como um exercicio de colocar todo o aprendizado com Java até o momento.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.ibm.com/Camila-Bernardino-da-Costa/ProjetoConta"><button type="button" class="btn btn-sm btn-outline-sucess">Visualizar projeto</button></a>
+                  
+                </div>
+            
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+<!--Sobre mim:-->
+<section class="jumbotron text-center corPrimaria" id="sobre-mim">
+    <div class="container">
+        <h2 class="jumbotron-heading titulosBrancos">Sobre mim: </h2>
+        <p class="lead textoBranco">Me chamo Camila, sou natural da cidade de Santos, atualmente moro com meus pais em Mogi Mirim. Tenho 20 anos e 
+            curso Analise e Desenvolvimento de Sistemas na Fatec, atualmente estou trabalhando na IBM. Gosto muito de ler livros, ver filmes e séries,
+            ouvir musica, sair com meus amigos e de comer. Meus pontos fortes são ser simpatica, carinhosa divertida, alegre, empenhada,
+            inteligente, carismática, dizem que sou bem pro ativa, e que sou uma ótima ouvinte. Meus pontos fracos: ser teimosa, orgulhosa e ansiosa.
+
+        </p>
+    </div>
+</section>
+<!--Depoimentos:-->
+<section class="jumbotron text-center" id="depoimentos">
+    <div class="container">
+        <h2 class=" titulosVerdes jumbotron-heading text center">Depoimentos:</h2>
+        <blockquote class="blockquote text-center">
+            <p class="mb-0">É uma profissional com grande foco e carisma, sempre disposta a aprender, pró ativa e eficiente.</p>
+            <footer class="blockquote-footer">Rafaela <cite title="Source Title">Leader of GBS Associates Itau</cite></footer>
+          </blockquote>
+        <blockquote class="blockquote text-center">
+            <p class="mb-0">É uma otima companheira de equipe, divertida, dedicada,sempre interessada em aprender mais, pontual e pró ativa.</p>
+            <footer class="blockquote-footer">Integrante da squad <cite title="Source Title">GBS Associates Itau</cite></footer>
+          </blockquote>
+        <blockquote class="blockquote text-center">
+            <p class="mb-0">Otima companheira de equipe, super atenciosa e dedicada, fecha sempre comigo, me ajudando em varios momentos durante o dia a dia na empresa.</p>
+            <footer class="blockquote-footer">Juninho <cite title="Source Title">GBS Associates Itau</cite></footer>
+          </blockquote>
+        <blockquote class="blockquote text-center">
+            <p class="mb-0">Profissional super interessada, amiga e divertida, acontece de acabar a pilha dela de vez em quando e o tom da voz ir ficando baixo.</p>
+            <footer class="blockquote-footer">Igor <cite title="Source Title">GBS Associates Itau</cite></footer>
+          </blockquote>
+        <blockquote class="blockquote text-center">
+            <p class="mb-0">Profissional dedicada e focada em ajudar a equipe a resolver os desafios e possiveis problemas que possam ocorrer nos projetos, carismatica e diveritda.</p>
+            <footer class="blockquote-footer">Guilherme <cite title="Source Title">GBS Associates Itau</cite></footer>
+          </blockquote>
+    </div>
+</section>
+    <!--Contato:-->
+    <section class="corPrimaria" id="contato">
+        <div>
+            <div class="container-fluid">
+                <h3 class="text-center titulosBrancos">Contato:</h3>
+                <h4 class="text-center textoBranco">Celular: (xx) xxxxx-xxxx</h4>
+                <h4 class="text-center textoBranco">camila.bernardino.da.costa@ibm.com</h4>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
